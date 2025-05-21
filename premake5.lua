@@ -18,6 +18,7 @@ project "GLFW"
         "src/egl_context.c",
         "src/osmesa_context.c",
         "src/platform.c",
+        "src/null_init.c"
         "src/internal.h"
     }
 
