@@ -30,6 +30,7 @@ project "GLFW"
     }
 
     filter "system:windows"
+        system "windows"
         systemversion "latest"
 
         files {
@@ -53,6 +54,7 @@ project "GLFW"
         }
 
     filter "system:linux"
+        system "linux"
         pic "On"
         systemversion "latest"
 
